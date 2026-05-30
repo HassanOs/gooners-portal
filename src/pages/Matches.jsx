@@ -1,5 +1,3 @@
-code:
-
 import { useState } from 'react'
 import SectionHeader from '../components/SectionHeader.jsx'
 import { results, fixtures, seasonStats } from '../assets/data/matches.js'
