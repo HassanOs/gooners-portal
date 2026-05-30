@@ -25,10 +25,11 @@ export default function Footer() {
 
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <span className="w-10 h-10 rounded-full bg-gunner-gold flex items-center justify-center
-                               font-extrabold text-gunner-red text-xl leading-none shadow">
-                G
-              </span>
+              <img 
+  src="/images/logo.png" 
+  alt="Arsenal Logo" 
+  className="w-9 h-9 object-contain group-hover:scale-110 transition-transform duration-200"
+/>
               <span className="text-white font-extrabold text-lg tracking-widest uppercase">
                 The Gooners Portal
               </span>

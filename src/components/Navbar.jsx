@@ -35,11 +35,11 @@ export default function Navbar() {
             className="flex items-center gap-2 group"
             aria-label="The Gooners Portal — Go home"
           >
-            <span className="w-9 h-9 rounded-full bg-gunner-gold flex items-center justify-center
-                             font-extrabold text-gunner-red text-lg leading-none shadow-md
-                             group-hover:scale-110 transition-transform duration-200">
-              G
-            </span>
+            <img 
+  src="/images/logo.png" 
+  alt="Arsenal Logo" 
+  className="w-9 h-9 object-contain group-hover:scale-110 transition-transform duration-200"
+/>
             <span className="hidden sm:block text-white font-extrabold text-lg tracking-widest uppercase
                              group-hover:text-gunner-gold transition-colors duration-200">
               The Gooners Portal
