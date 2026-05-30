@@ -109,10 +109,11 @@ export default function Contact() {
             <div className="lg:col-span-2 hidden lg:block">
               <div className="sticky top-24">
                 <div className="bg-gunner-dark-2 rounded-2xl p-8 text-white">
-                  <div className="w-16 h-16 rounded-full bg-gunner-red flex items-center justify-center
-                                  text-3xl font-extrabold text-gunner-gold mb-6 shadow-lg">
-                    G
-                  </div>
+                  <img 
+  src="/images/logo.png" 
+  alt="Arsenal Logo" 
+  className="w-9 h-9 object-contain group-hover:scale-110 transition-transform duration-200"
+/>
                   <h2 className="text-2xl font-extrabold text-white mb-3">
                     Reach The Gooners Community
                   </h2>
